@@ -1,4 +1,4 @@
-from main.sample.FileSystem import FileSystemElement
+from main.sample.FileSystemElement import FileSystemElement
 
 
 class FileReader:
