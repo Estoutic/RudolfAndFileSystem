@@ -4,3 +4,5 @@ if __name__ == '__main__':
     file_reader = FileReader()
     file_reader.read_file()
     file_reader.pretty_input_data()
+    file_reader.get_info()
+    file_reader.get_commands()
