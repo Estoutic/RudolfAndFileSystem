@@ -1,5 +1,15 @@
-home
-1
-0 srv home
-1
-0 home
+root
+7
+0 foldone root
+0 foldtwo root
+0 foldthree foldone
+0 foldfour foldone
+1 fileone foldfour 10
+1 filetwo foldfour 5
+1 filethree foldtwo 7
+5
+0 foldone
+1 fileone foldthree
+0 foldone
+0 foldthree
+0 foldtwo

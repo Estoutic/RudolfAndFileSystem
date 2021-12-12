@@ -3,6 +3,6 @@ from main.file_reader.FileReader import FileReader
 if __name__ == '__main__':
     file_reader = FileReader()
     file_reader.read_file()
-    file_reader.pretty_input_data()
-    file_reader.get_info()
-    file_reader.get_commands()
+    file_reader.create_system_entities()
+    file_reader.update_elements_meta_info()
+    file_reader.execute_commands()
